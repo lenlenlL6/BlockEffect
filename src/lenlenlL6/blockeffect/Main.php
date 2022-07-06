@@ -14,5 +14,5 @@ final class Main extends PluginBase{
          $this->saveDefaultConfig();
          $this->config = $this->getConfig();
          $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
-       }
-     }
+      }
+  }
