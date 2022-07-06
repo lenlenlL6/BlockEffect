@@ -1,3 +1,4 @@
+[![](https://poggit.pmmp.io/shield.state/BlockEffect)](https://poggit.pmmp.io/p/BlockEffect)
 <img src="https://cdn-icons-png.flaticon.com/512/2592/2592201.png" height=260 width=300></img>
 ## About
 > A support plugin for Pocketmine-MP 4. This plugin causes players who step on a block to receive corresponding effects.
