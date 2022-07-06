@@ -11,8 +11,8 @@ final class Main extends PluginBase{
   public Config $config;
   
   public function onEnable() : void{
-  $this->saveDefaultConfig();
-  $this->config = $this->getConfig();
-  $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
-  }
-}
+         $this->saveDefaultConfig();
+         $this->config = $this->getConfig();
+         $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
+       }
+     }
