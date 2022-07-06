@@ -9,7 +9,7 @@
 
 ## Config
 ```yaml
-# You can adjust the blocks that can receive effects with format is: "format is: format is: "blockId.blockMeta.effectId.effectDuration.effectAmplifier" .
+# You can adjust the blocks that can receive effects with format is: "format is: format is: "blockId|blockMeta|effectId|effectDuration|effectAmplifier" .
 
 # Find block ids here: https://www.digminecraft.com/lists/item_id_list_pe.php. Note, some items or blocks do not exist in the pocketmine .
 
@@ -44,6 +44,6 @@
 #	 BAD_OMEN = 28
 #	 VILLAGE_HERO = 29
 blocks:
-- "2.0.17.50.1" # If the player steps on a block of grass, the player will receive a counter effect for 50 seconds with amplifier is 1 .
+- "2|0|17|50|1" # If the player steps on a block of grass, the player will receive a counter effect for 50 seconds with amplifier is 1 .
 
 ```
