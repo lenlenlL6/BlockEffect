@@ -1,4 +1,4 @@
-# You can adjust the blocks that can receive effects with format is: "format is: format is: "blockId.blockMeta.effectId.effectDuration.effectAmplifier" .
+# You can adjust the blocks that can receive effects with format is: "blockId|blockMeta|effectId|effectDuration|effectAmplifier" .
 
 # Find block ids here: https://www.digminecraft.com/lists/item_id_list_pe.php. Note, some items or blocks do not exist in the pocketmine .
 
