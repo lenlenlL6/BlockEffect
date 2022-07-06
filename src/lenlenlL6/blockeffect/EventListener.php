@@ -35,9 +35,9 @@ final class EventListener implements Listener{
            }
       }
   }
-          if(isset($blocks[($player->getWorld()->getBlock($player->getLocation()->asVector3()->add(0, -1, 0))->getId() . "|" . $player->getWorld()->getBlock($player->getLocation()->asVector3()->add(0, -1, 0))->getMeta())])){
-                 $explode = explode("|", $blocks[($player->getWorld()->getBlock($player->getLocation()->asVector3()->add(0, -1, 0))->getId() . "|" . $player->getWorld()->getBlock($player->getLocation()->asVector3()->add(0, -1, 0))->getMeta())]);
-                 $player->getEffects()->add(new EffectInstance(EffectIdMap::getInstance()->fromId((int)$explode[0]), ((int)$explode[1]*20), ((int)$explode[2] - 1)));
+         if(isset($blocks[($player->getWorld()->getBlock($player->getLocation()->asVector3()->add(0, -1, 0))->getId() . "|" . $player->getWorld()->getBlock($player->getLocation()->asVector3()->add(0, -1, 0))->getMeta())])){
+                $explode = explode("|", $blocks[($player->getWorld()->getBlock($player->getLocation()->asVector3()->add(0, -1, 0))->getId() . "|" . $player->getWorld()->getBlock($player->getLocation()->asVector3()->add(0, -1, 0))->getMeta())]);
+                $player->getEffects()->add(new EffectInstance(EffectIdMap::getInstance()->fromId((int)$explode[0]), ((int)$explode[1]*20), ((int)$explode[2] - 1)));
           }
      }
 }
